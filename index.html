@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Studio de Unhas</title>
+</head>
+<body>
+
+  <h1>tatilla Luddimila | nails designer</h1>
+
+  <p>Agende seu horário de forma rápida e fácil.</p>
+
+  <h2>Serviços</h2>
+  <ul>
+    <li>Unha em Gel</li>
+    <li>Fibra de Vidro</li>
+    <li>Manicure Simples</li>
+    <li>Manutenção</li>
+  </ul>
+
+  <h2>Horário de Atendimento</h2>
+  <p>Segunda a Sábado - 08h às 20h</p>
+
+  <h2>Agendamento</h2>
+
+<form onsubmit="enviarAgendamento(event)">
+  
+  <input type="text" id="nome" placeholder="Seu nome" required><br><br>
+  
+  <select id="servico" required>
+    <option value="">Escolha o serviço</option>
+    <option value="Unha em Gel">Unha em Gel</option>
+    <option value="Fibra de Vidro">Fibra de Vidro</option>
+    <option value="Manicure Simples">Manicure Simples</option>
+    <option value="Manutenção">Manutenção</option>
+  </select><br><br>
+  
+  <input type="date" id="data" required><br><br>
+  
+  <input type="time" id="hora" required><br><br>
+  
+  <button type="submit">Agendar no WhatsApp</button>
+  
+</form>
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
